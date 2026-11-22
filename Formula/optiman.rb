@@ -1,8 +1,8 @@
 class Optiman < Formula
   desc "Convert photos to JPEG XL without quality loss, using no resources while idle"
   homepage "https://tsubasatommy.github.io/optiman/"
-  url "https://github.com/TsubasaTommy/optiman/releases/download/v0.4.0/optiman-macos-universal.tar.gz"
-  sha256 "37e91b7c07168b37e349f5536bc1701367140cbe0229f892fa2aac6e085242cb"
+  url "https://github.com/TsubasaTommy/optiman/releases/download/v0.4.1/optiman-macos-universal.tar.gz"
+  sha256 "cb3371a14879597e3a9173957588a33ac24a927fd6455064e15179de45adedd6"
   license "MIT"
 
   depends_on :macos
@@ -16,7 +16,7 @@ class Optiman < Formula
     <<~EOS
       Start converting (registers a launchd agent that runs only when a watched folder changes):
         optiman install
-      Open the settings window (folders and compression strength):
+      Open the settings window (folders, quality and compression strength):
         optiman settings
       Before `brew uninstall`, unregister the agent:
         optiman uninstall
