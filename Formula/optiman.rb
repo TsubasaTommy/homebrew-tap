@@ -1,8 +1,8 @@
 class Optiman < Formula
   desc "Convert photos to JPEG XL without quality loss, using no resources while idle"
   homepage "https://tsubasatommy.github.io/optiman/"
-  url "https://github.com/TsubasaTommy/optiman/releases/download/v0.3.0/optiman-macos-universal.tar.gz"
-  sha256 "5f4665f3a4de8a69715f09f249aac80a076f53b2e5fb7fd0004d721cbc31f47e"
+  url "https://github.com/TsubasaTommy/optiman/releases/download/v0.4.0/optiman-macos-universal.tar.gz"
+  sha256 "37e91b7c07168b37e349f5536bc1701367140cbe0229f892fa2aac6e085242cb"
   license "MIT"
 
   depends_on :macos
